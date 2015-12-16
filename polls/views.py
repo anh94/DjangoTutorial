@@ -4,7 +4,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.template import RequestContext, loader
 from django.core.urlresolvers import reverse
 from django.views import generic
-
+from django.utils import timezone
 
 from .models import Choice, Question
 
